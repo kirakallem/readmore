@@ -4,9 +4,16 @@ YOUR STYLES
 
 article {
     width: 33%;
-    background: red;
 }
 
+h1 {
+    padding: 20px 0 20px 356px;
+}
+
+p {
+    width: 33%;
+    margin: auto;
+}
 
 /********************
 MEDIA QUERIES
