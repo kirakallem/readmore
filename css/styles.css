@@ -2,7 +2,10 @@
 YOUR STYLES
 *******************/
 
-
+article {
+    width: 33%;
+    background: red;
+}
 
 
 /********************
