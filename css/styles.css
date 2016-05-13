@@ -2,17 +2,37 @@
 YOUR STYLES
 *******************/
 
-article {
-    width: 33%;
+.container {
+  height: 100%;
+  width: 100%;
+  text-align:center;
 }
+
+#tubular-container {
+   top: -10px; 
+}
+
 
 h1 {
-    padding: 20px 0 20px 356px;
+    z-index: 99;
+    font-size: 1.3em;
+    height: 1.1em;
+    width: 15em;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    background: #C9C5CB;
+    padding: 5px;
+    padding-right: 1em;
+    text-align: right;
+    border: none;
+    
 }
-
-p {
-    width: 33%;
-    margin: auto;
+div#name {
+    position: fixed;
+    top: 52px;
+    z-index: 99;
 }
 
 /********************
