@@ -29,11 +29,31 @@ h1 {
     border: none;
     
 }
+
 div#name {
     position: fixed;
     top: 52px;
     z-index: 99;
 }
+
+
+@media screen and (min-width: 30em) {
+    
+    #menu ul {
+        position: fixed;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        z-index: 99;
+        
+    }
+    
+    #menu li {
+        flex: 1 0 auto;
+        text-align: center;
+    }
+}
+
 
 /********************
 MEDIA QUERIES
