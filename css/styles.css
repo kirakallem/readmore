@@ -33,7 +33,7 @@ h1 {
 div#three {
     width: 4em;
     width: 100%;
-    padding-top: 15em;
+    padding-top: 17em;
 }
 
 
@@ -41,21 +41,21 @@ div.name {
     position: fixed;
     top: 52px;
     z-index: 99;
-    
 }
 
-#pic img {
-    width: 5em;
-}
 
-@media screen and (min-width: 30em){
-    .imagelevel ul {
+
+@media screen and (min-width: 20em){
+    .imagelevel div {
         display: flex;
         justify-content: center;
+        padding-bottom: .7em;
     }
     
     #pic img {
-        width: 7em;
+        width: 6em;
+        height: 6em;
+        padding-left: 2em;
     }
     
     .onelevel ul {
