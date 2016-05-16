@@ -30,28 +30,81 @@ h1 {
     
 }
 
-div#name {
-    position: fixed;
-    top: 52px;
-    z-index: 99;
+div#three {
+    width: 4em;
+    width: 100%;
+    padding-top: 15em;
 }
 
 
-@media screen and (min-width: 30em) {
+div.name {
+    position: fixed;
+    top: 52px;
+    z-index: 99;
     
-    #menu ul {
-        position: fixed;
+}
+
+
+@media screen and (min-width: 30em){
+    .imagelevel ul {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        z-index: 99;
-        
+        justify-content: center;
     }
     
-    #menu li {
-        flex: 1 0 auto;
-        text-align: center;
+    #pic img {
+        width: 7em;
     }
+    
+    .onelevel ul {
+        display: flex;
+        justify-content: center;
+    } 
+    
+    .onelevel li {
+        width: 8em;
+        text-align: center;
+        transition-duration: 0.4s; 
+        transition-duration: 0.4s;
+    }
+    
+    .onelevel li:hover {
+        background: #C9C5CB;
+    }
+    
+}
+
+
+/* 
+nav#menu ul {
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    background: #C9C5CB;
+    top: 55px;
+     z-index: 99;
+} 
+*/
+
+#pic ul li {
+    letter-spacing: .1em;
+    padding: 10px;
+    padding-bottom: 2em;
+    list-style-type: none;
+}
+
+
+#menu ul li {
+    letter-spacing: .1em;
+    padding: 10px;
+    list-style-type: none;
+}
+
+
+#menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+    text-transform: uppercase;
 }
 
 
